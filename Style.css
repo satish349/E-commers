@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav-bar  */
+
+.nav-bar{
+    margin-top: 0.1rem;
+    height: 60px;
+    width: 100%;
+    background-color: #1f1111;
+    display: flex;
+    justify-content: space-evenly;
+}
+.amazon-logo{
+    background-image: url(amazon_logo.png);
+    height: 65px;
+    width: 113px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.border{
+    border:1px solid transparent;
+    border-radius: 0.5rem;
+    height: 60px;
+}
+.border:hover{
+    border:1px solid white
+}
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hello{
+    font-size: 0.75rem;
+    color:rgb(212, 215, 216);
+}
+.add{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.select-add{
+    margin-left: 5px;
+}
+.loc{
+    font-size: 0.8rem;
+    margin-top: 8px;
+}
+.nav-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    height: 38px;
+    width: 700px;
+    border:none;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+}
+.nav-search input{
+    font-size: 1rem;
+}
+.search-option{
+    height: 38px;
+    width: 40px;
+    background-color: rgb(236, 198, 11);
+    font-size: 20px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-in{
+    font-size: 0.75rem;
+    color:rgb(137, 138, 139)
+}
+.account{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card i{
+    font-size: 2rem;
+}
+.card p{
+    font-size: 0.8rem;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-weight: 700;
+}
+.sticy{
+    height: 50px;
+    width: 100%;
+    background-color: #303340fe;
+}
+.sticy-option{
+    display: flex;
+    justify-content: space-evenly;
+}
+.all{
+    margin-top: 12px;
+    /* margin-left: 5px; */
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 700;
+    opacity: 0.8;
+}
+.all:hover{
+    opacity: 1;
+}
+.all i{
+    font-size: 1.25rem;
+}
+.all p{
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.sticy-content{
+    margin-top: 12.5px;
+    /* margin-left: 5px; */
+    width: 65%;
+    display: flex;
+    font-size: 0.9rem;
+}
+.sticy-content p{
+    margin-left: 15px;
+    font-weight: 400;
+    opacity: 0.75;
+}
+.sticy-content  :hover{
+    opacity: 1;
+}
+.ending{
+    width: 24.5%;
+    display: flex;
+    /* margin-left: 5px; */
+    margin-top: 12.5px;
+    font-size: 0.9rem;
+    margin-left: 40px;
+    opacity: 0.7;
+}
+.ending:hover{
+    opacity: 1;
+}
+.pic{
+    display: flex;
+    background-image: url(pic1.jpg);
+    height: 260px;
+    background-size: cover;
+    justify-content: flex-start;
+    align-items: end;
+}
+.box-bgc{
+    display: flex;
+    padding: 30px 20px 0px 20px;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(197, 224, 231);
+}
+.box{
+    height: 385px;
+    width: 370px;
+    background-color: white;
+    color: black;
+    margin-left: 15px;
+    opacity: 1;
+}
+.box:hover{
+    opacity: 0.7;
+}
+.img{
+    background-image: url(pic3.jpg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+}
+.see-more{
+    text-decoration: none;
+    color: rgb(8, 115, 115);
+    padding: 25px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+.see-more:hover{
+    opacity: 1;
+    text-decoration: underline;
+    color: orange;
+}
+.box h3{
+    padding: 25px 20px;
+    color: black;
+}
+.img1{
+    background-image: url(pic4.jpg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img2{
+    background-image: url(pic5.jpg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img3{
+    background-image: url(pic6.jpg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img4{
+    background-image: url(pic7.jpg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img5{
+    background-image: url(pic8.jpg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img6{
+    background-image: url(pic9.jpg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img7{
+    background-image: url(pic10.jpg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img8{
+    background-image: url(pic11.jpg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img9{
+    background-image: url(pic12.jpg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img10{
+    background-image: url(pic13.jpg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img11{
+    background-image: url(pic14.jpg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img12{
+    background-image: url(pic15.jpeg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img13{
+    background-image: url(pic16.jpg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img14{
+    background-image: url(pic17.jpeg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img15{
+    background-image: url(pic18.jpeg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img16{
+    background-image: url(pic3.jpg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.img17{
+    background-image: url(pic2.jpg);
+    height: 260px;
+    width: 300px;
+    margin-left: 23px;
+    background-size: cover;
+}
+.width-box{
+    height: 300px;
+    background-color: white;
+    margin: 30px 20px 0px 35px;
+}
+.titale{
+    display: flex;
+}
+.titale h3{
+    color: black;
+    padding: 30px 0px 15px 20px;
+}
+.titale a{
+    padding: 35px 0px 15px 20px;
+}
+.image{
+    display: flex;
+    overflow: hidden;
+}
+.image:hover{
+    overflow: auto;
+}
+.image img{
+    margin-left: 20px;
+}
+.space{
+    padding: 50px;
+}
+.back{
+    height: 60px;
+    width: 100%;
+    background-color: #383b47fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+.back:hover{
+    opacity: 0.9;
+}
+.back a{
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+.footer-content{
+    width: 100%;
+    height: 100%;
+    background-color:  #222631fe;
+    color:white;
+}
+.fstf{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+.fc-first{
+    padding-left: 220px;
+    line-height: 1.6rem;
+}
+.fc-first a:hover{
+    text-decoration: underline;
+    font-weight: 300;
+    opacity: 1;
+}
+.fc-first a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.fc-first p{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.fc-second{
+    width: 20%;
+    padding-left: 70px;
+    line-height: 1.6rem;
+}
+.fc-second p{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.fc-second a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.fc-second a:hover{
+    text-decoration: underline;
+    font-weight: 300;
+    opacity: 1;
+}
+.fc-third{
+    width: 20%;
+    line-height: 1.6rem;
+}
+.fc-third p{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.fc-third a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.fc-third a:hover{
+    text-decoration: underline;
+    font-weight: 300;
+    opacity: 1;
+}
+.fc-forth{
+    width: 25%;
+    line-height: 1.6rem;
+}
+.fc-forth p{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.fc-forth a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.fc-forth a:hover{
+    text-decoration: underline;
+    font-weight: 300;
+    opacity: 1;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.flink{
+    line-height: 1rem;
+    opacity: 0.9;
+    background-color: #0f121cfe;
+}
+.para a{
+    text-decoration: none;
+    margin: 20px 20px 0px 20px ;
+    font-size: 0.8rem;
+    font-weight: 550;
+}
+.para a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.copyright p{
+    font-size: 0.9rem;
+}
+.joy{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.footer-content hr{
+    margin-top: 70px;
+    opacity: 0.7;
+    font-weight: 900;
+}
